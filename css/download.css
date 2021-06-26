@@ -41,7 +41,7 @@ body {
 
 /* movie photo */
 header {
-  background-image: url(actors.png);
+  background-image: url(../images/actors.png);
   height: 144px;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -98,7 +98,7 @@ header {
   border-top-right-radius: 22px;
   position: absolute;
   transform: translateX(24px) translateY(-52px);
-  background: url(check-line.svg) var(--selectColor);
+  background: url(../images/check-line.svg) var(--selectColor);
   background-repeat: no-repeat;
   background-position-x: 12px;
 }
