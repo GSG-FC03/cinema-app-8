@@ -21,16 +21,27 @@ the website is designed for many devices (Laptop, mobiles)
 it's contains three pages (Home, Description, Download)
 
 <h2>The journey to completion</h2>
+
 - Establish and agree on the structure
+
 - Export the needed image and icons from figma file and put them in the images folder
+
 - Establish code rules
+
 - Divide tasks in equal proportions between team members
+
 - Establish a task for each team member (create issues)
+
 - Start working on issues that are assigned to each member
+
 - push the codes in separate branches for review and create a pull request
+
 - Approval of the pull request after review
+
 - Merge the created branch with main branch
+
 - Create a GitHub page
+
 - Update the readme file
 
 <h2>The Design in Figma</h2>
