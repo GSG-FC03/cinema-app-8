@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --actionColor: #6644b8;
+    --selectColor: #ff8fc6;
+    --tagColor: #36274b;
+    --fontColor: #ecbbda;
+    --fontColor1: #bcb7c3;
+    --divBackground: #210f37;
+    --divBackground1: #200f37;
+    --mainBackground: #17082a;
+    --customColor: #F79E44;
+  }
+body{
+    background-color: #17082a;
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+}
+.back-icon{
+    margin-top: 29px;
+    margin-left: 26px;
+}
+.page2{
+    background-color: #200f37;
+    width: auto;
+    height: 729px;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding-top: 25px;
+    
+}
+.page2 .Description{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: antiquewhite;
+}
+.page2 .Description h1{
+    margin-bottom: 12px;
+
+}
+.page2 .Description p{
+    margin-bottom: 17px;
+    color: #bcb7c3;
+    font-size: 20px;
+}
+.page2 .Director{
+    margin-left: 25px;
+    margin-top:40px;
+    
+
+}
+.page2 .Director h1{
+    margin-bottom: 13px;
+    color: #ffff;
+
+}
+.page2 .Director .Brian-Singer{
+    width: 175px;
+    height: 41px;
+    background-color: #36274b;
+    border: none;
+    color: #ECBBDA;
+    border-radius: 11px;
+
+}
+.page2 .Cast{
+    margin-left: 25px;
+    margin-top: 40px;
+
+}
+.page2 .Cast h1{
+    margin-bottom: 12px;
+    color: #ffff;
+    
+
+}
+.page2 .Cast .flex-box button{
+    width: 134px;
+    height: 42px;
+    background-color: #36274b;
+    border: none;
+    color: #ECBBDA;
+    border-radius: 11px;
+    margin-right: 14.5px;
+    margin-bottom: 12px;
+
+}
+.page2 .Cast .lucky{
+    display: block;
+    width: 157px;
+    height: 42px;
+    margin-bottom: 12px;
+}
+.page2 .Cast .Joseph{
+    width: 180px;
+    height: 42px;
+}
+.page2 .Cast .lucky,.Joseph{
+    
+    background-color: #36274b;
+    border: none;
+    color: #ECBBDA;
+    border-radius: 11px;
+}
+.page2 .Genre{
+    margin-left: 25px;
+    margin-top: 40px;
+    
+}
+.page2 .Genre h1{
+    margin-bottom: 12px;
+    color: #ffff;
+}
+.page2 .Genre .flex-box button{
+    background-color: #36274b;
+    border: none;
+    color: #ECBBDA;
+    border-radius: 11px;
+
+}
+.page2 .Genre .flex-box .Dramas{
+    height: 42px;
+    width: 105px;
+    margin-right: 9px;
+    margin-bottom: 12px;
+}
+.page2 .Genre .flex-box .Biographies{
+    height: 42px;
+    width: 140px;
+    margin-right: 9px;
+    margin-bottom: 12px;
+}
+.page2 .Genre .Musical-film{
+    background-color: #36274b;
+    border: none;
+    color: #ECBBDA;
+    border-radius: 11px;
+    height: 42px;
+    width: 147px;
+    margin-right: 173px;
+    margin-bottom: 25px;
+}
+
+/*responsive */
+/*******website********/
+@media (min-width:1023px ) {
+    .flex-box-responsive{
+        display: flex;
+    }
+    .page2 .Description, .Director, .Cast{
+        width: 30%;
+    }
+    .Description{
+        margin-bottom:100px;
+    }
+    .page2{
+        height: 540px;
+    }
+  }
