@@ -159,3 +159,47 @@ button {
 .mega {
   opacity: 0.5;
 }
+
+/* Responsive */
+
+@media only screen and (min-width: 1023px) {
+    header {
+      width: 100%;
+      background-size: cover;
+      height: 50vh;
+    }
+  
+    html {
+      font-size: 25px;
+    }
+  
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .movieName {
+      margin-inline: 33vw;
+    }
+    .qualities {
+      flex: 1;
+      text-align: center;
+    }
+    .boxes {
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .voiceActing {
+      flex: 1;
+      align-items: center;
+    }
+    .flex-box {
+      justify-content: space-around;
+    }
+    button {
+      margin-inline: 33vw;
+    }
+  }
